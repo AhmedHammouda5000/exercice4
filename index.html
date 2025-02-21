@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+</head>
+<body>
+    <form action="" class="container text-center">
+        <div class="row">
+        <div class="input-group mb-3 col-1">
+            <span class="input-group-text" id="basic-addon1"><strong>Name</strong></span>
+            <input type="text" id="Name" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>    
+          <div class="input-group mb-3 col">
+            <span class="input-group-text" id="basic-addon1"><strong>Content</strong></span>
+            <input type="text" id="Content" class="form-control" placeholder="Content" aria-label="Content" aria-describedby="basic-addon1">
+          </div>
+          <div>
+            <button type="button" onclick="addComment()" class="btn btn-primary">Add Comment</button>
+  
+          </div>
+          <table class="table table-striped" id="tab">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Content</th>
+                <th>aa</th>
+              </tr>
+
+            </thead>
+            <tbody id="commentsContainer">
+            </tbody>
+  
+        </table>
+          </div>
+
+          
+
+    
+</form> 
+
+    
+</body>
+</html>
